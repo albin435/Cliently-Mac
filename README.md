@@ -66,22 +66,7 @@ For a detailed setup guide on macOS, refer to the [Tauri Prerequisites Documenta
    ```
    This will generate a `.dmg` and `.app` file in the `src-tauri/target/release/bundle/macos/` directory.
 
-## 🔒 Security
 
-Security is a primary focus for Cliently. 
-- All sensitive API keys and secrets are strictly excluded from this repository and must be provided via local `.env` files.
-- The app utilizes strict Content Security Policies (CSP) defined in `tauri.conf.json`.
-- Row-Level Security (RLS) is enforced at the database level for all user data.
-
-## 🤝 Contributing
-
-While this is an open-source mirror of the Mac application intended to showcase the architecture and UI/UX, we welcome feedback, bug reports, and pull requests! 
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📄 License
 
